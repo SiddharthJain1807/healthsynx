@@ -10,7 +10,7 @@ import exerciseRoutes from './routes/exerciseRoutes.js';
 config({ path: process.env })
 
 server.use(cors({
-  credentials: true,
+  credentials: false,
   origin: process.env.FRONTEND_URL,
   methods: ["POST", "GET"]
 }));
