@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser"
 import authRouter from "./routes/auth.js";
 import exerciseRoutes from './routes/exerciseRoutes.js';
 ;
-
+// something
 config({ path: process.env })
 
 server.use(cors({
